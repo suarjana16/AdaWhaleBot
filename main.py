@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler
 from datetime import datetime, time as dtime
 import pytz
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7875159098:AAHA17VazBaHRLrZ3zaO_Yjic0tD6rAnMVI")
 ALERT_TIMES = [
     os.getenv("ALERT_TIME_1", "09:00"),
     os.getenv("ALERT_TIME_2", "18:00"),
